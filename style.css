@@ -1,0 +1,715 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;400;700&family=Poppins:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+/*------ start header-------*/
+
+.header-top{
+    background: var(--bg-color);
+    height: 105px;
+    overflow: hidden;
+    position: relative;
+}
+.header-part{
+    float:left;
+    width: 50% !important;
+}
+.img-thumbs{
+    padding:10px 0;
+    float:left; 
+    margin-right: 10px;
+}
+.img-thumbs img{
+    width:85px;
+    height:85px;
+    border-radius: 50%;
+    object-fit: cover;
+    border:5px solid var(--primary-color);
+}
+.info{
+    margin-top: 20px;
+}
+.info h1{
+    font-size:30px;
+    font-weight: 700;
+    color:#487eb0;
+}
+.info span{
+    font-size: 17px;
+    font-weight: 400;
+    color:#487eb0;
+}
+.header .icons-section{
+    float:left;
+    width:50% !important;
+}
+.icons-list{
+    line-height: 1.9;
+    padding-top: 30px;
+    text-align: right;
+}
+.icons-list a{
+    font-size:16px;
+    color:#487eb0;
+}
+.icons-list i::before{
+    color:#f8c471;
+    margin-right: 8px;
+    font-size: 20px;
+}
+/*-----end header-----*/
+
+
+/*------start-navbar----*/
+
+.navbar{
+    background: #487eb0;
+    width: 100%;
+    height: 62px;
+    border-bottom: 1px solid #fff;
+}
+.content ul li{
+    display: inline-block;
+    margin-top: 17px;
+    font-size: 19px;
+    font-weight: 400;
+    padding: 0px 20px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.content ul{
+    margin-left: 100px;
+}
+.content ul li a{
+    color: #fff;
+}
+.content ul li a:hover{
+    color:#dcebd9;
+}
+
+
+/*------end navbar------*/
+
+/*---- start headline----*/
+.headline-section{
+    background: linear-gradient(rgb( 31, 97, 141, 0.9) , rgb( 31, 97, 141, 0.9)), url(img/hero-bg.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text-section{
+    left: 50%;
+    top: 50%;
+    margin: auto;
+    position: absolute;
+    transform: translate(-50%, -20%);
+}
+
+.color{
+    font-size: 32px;
+    color:#f8c471;
+}
+b{
+    color: #fff;
+}
+.text-area p{
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    text-transform: capitalize;
+    color: #fff;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.icons-part{
+    color: #fff;
+    text-align: center;
+    padding-bottom: 23px;
+}
+.icons-part i{
+    font-size: 25px;
+    padding: 0px 9px;
+}
+.btn{
+    text-align: center;
+}
+.btn a{
+    color: #fff;
+    font-size: 18px;
+    background:#A3CB38;
+    padding: 6px 52px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+
+}
+.btn a:hover{
+    background:#30336b;
+}
+
+
+
+
+/*----end hadline----*/
+
+
+/*----start service section-----*/
+
+.my-services{
+    text-align: center;
+}
+.service-title-description{
+    padding: 40px 0px;
+}
+.service-title-description h2{
+    text-transform: capitalize;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#182C61;
+}
+.connect::after{
+    content:'';
+    height: 4px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    background:#353b48;
+    margin-bottom: 9px;
+
+}
+.services-part{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1140px;
+    margin: auto;
+    margin-bottom: 37px;
+}
+.services{
+    border: 1px solid #333;
+    margin: 10px 5px;
+    box-shadow: 1px 1px 1px #333;
+    border-radius: 5px;
+}
+.icons-service{
+    font-size: 25px;
+    padding-top: 15px;
+    color:#4cd137;
+}
+.service-title h3{
+    font-size: 20px;
+    color:#130f40;
+    padding: 10px;
+}
+.service-title p{
+    text-align: justify;
+    margin: 10px 21px;
+    font-weight: 400;
+    color:#130f40;
+}
+.box{
+    background:#192a56;
+    color:#fff;
+}
+.box h3{
+    color: #fff;
+}
+.box p{
+    color: #fff;
+}
+
+
+/*----End service section-----*/
+.my-services{
+    text-align: center;
+}
+.service-title-description{
+    padding: 40px 0px;
+}
+.service-title-description h2{
+    text-transform: capitalize;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#182C61;
+}
+.connect::after{
+    content:'';
+    height: 3px;
+    width: 200px;
+    display: block;
+    margin: auto;
+    background:#487eb0;
+    margin-bottom: 9px;
+
+}
+.my-services-part{
+    display:inline-block;
+    max-width: 1140px;
+    margin: auto;
+    margin-bottom: 37px;
+}
+.services{
+    border: 1px solid #333;
+    margin: 10px 5px;
+    box-shadow: 1px 1px 1px #333;
+    border-radius: 5px;
+}
+.icons-service{
+    font-size: 25px;
+    padding-top: 15px;
+    color:#4cd137;
+}
+.service-title h3{
+    font-size: 20px;
+    color:#130f40;
+    padding: 10px;
+}
+.service-title p{
+    text-align: justify;
+    margin: 10px 21px;
+    font-weight: 400;
+    color:#130f40;
+}
+.box{
+    background:#1a5276;
+    color:#fff;
+}
+.box h3{
+    color: #fff;
+}
+.box p{
+    color: #fff;
+}
+
+
+/*----Start My Team Section-----*/
+
+
+
+
+.my-team{
+    background:#1a5276;
+    width: 100%;
+    height: auto;
+}
+
+.team-section{
+    text-align: center;
+}
+.team-section h3{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    color:#fff;
+    padding-top: 20px;
+    text-transform: capitalize;
+}
+.after-2::after{
+    content: '';
+    height: 4px;
+    width: 150px;
+    display: block;
+    background:#fff;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.team-section h1{
+    font-size: 14px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+.team-services{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1140px;
+    margin: auto;
+    padding: 5px;
+}
+.img-thumb{
+    text-align: center;
+}
+.img-thumb img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: inline-block;
+}
+.team-title{
+    text-align: center;
+    font-size: 20px;
+    color: #fff;
+}
+.team-title h4{
+    padding: 10px;
+    font-size: 22px;
+}
+.team-title p{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}
+.little-title{
+    text-align:justify;
+    margin: 0px 25px;
+    color: #fff;
+    padding-bottom: 15px;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+.my-icons{
+    margin-bottom: 10px;
+}
+.my-icons i{
+    font-size: 28px;
+    padding: 10px 6px;
+    color: #fff;
+}
+
+
+/*----end my team Section-------*/
+
+
+/*------Start My Skill section-----*/
+
+h2, h5, h6{
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1.2;
+    color: #333;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    margin: 0;
+    padding: 0; 
+}
+ul li{
+    list-style: none;
+}
+.clearfix{
+    content: '';
+    display: block;
+    clear: both;
+}
+.section-padding{
+    padding: 120px 0;
+}
+.container{
+    max-width: 1140px;
+    margin: auto;
+    padding: 0px 15px;
+}
+#about{
+    background: #FBFBFB;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 60px;
+}
+.section-title h2{
+    font-size: 36px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    color:#273c75;
+    padding-bottom: 30px;
+}
+.section-title p{
+    width: 50%;
+    margin: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color:#273c75;
+}
+.title::after{
+        content: '';
+        height: 4px;
+        width: 150px;
+        display: block;
+        background:#487eb0;
+        margin: auto;
+        margin-top: 7px;
+}
+.about-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 60px;
+}
+.about-content h5{
+    font-size: 30px;
+    padding-bottom: 15px;
+    font-weight: 400;
+    color:#487eb0;
+    
+}
+.about-content p{
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    color:#273c75;
+}
+.skill-btn{
+    text-align: center;
+    margin-top: 10px;
+    color:#487eb0;
+}
+.skill-btn a{
+    border: 1px solid #333;
+    padding: 6px 25px;
+}
+.skill-item{
+    margin-top: 20px;
+}
+.skill-item:first-child{
+   margin-top: 0;
+}
+.skill-title{
+    font-size: 16px;
+    font-weight: 400;
+}
+.skill-header{
+    position: relative;
+}
+.skill-percentage{
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 16px;
+    color: #333;
+}
+.count-box{
+    float: left;
+}
+.skill-bar{
+    margin-top: 10px;
+}
+.bar-inner{
+    width: 100%;
+    height: 6px;
+    background:#0097e6;
+    border-radius: 5px;
+    position: relative;
+}
+.progress-line{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 0;
+    height: 6px;
+    background: #754ef9;
+    border-radius: 5px;
+    transition: 3s;
+}
+.counter{
+    color:#333;
+}
+.size-box{
+    width: 90%;
+    height: 6px;
+    background:#487eb0;
+    border-radius: 5px;
+    position: relative;
+}
+.size-box1{
+    width: 70%;
+    height: 6px;
+    background:#487eb0;
+    border-radius: 5px;
+    position: relative;
+}
+.size-box2{
+    width: 80%;
+    height: 6px;
+    background:#487eb0;
+    border-radius: 5px;
+    position: relative;
+}
+.size-box3{
+    width: 60%;
+    height: 6px;
+    background:#487eb0;
+    border-radius: 5px;
+    position: relative;
+}
+
+
+/*------End My Skill section-----*/
+
+
+
+/*-------Start Get in Touch-----*/
+
+.area-section{
+    background: linear-gradient(rgb( 31, 97, 141, 0.9) , rgb( 31, 97, 141, 0.9)), url(img/contact-bg.jpg);
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.text-box h2{
+    text-align: center;
+    padding-top: 50px;
+    color:#fff;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.get-box::after{
+        content: '';
+        height: 4px;
+        width: 150px;
+        display: block;
+        background:#fff;
+        margin: auto;
+}
+.email-section{
+    left: 50%;
+    top: 50%;
+    margin: auto;
+    position: absolute;
+    transform: translate(-50%, -43%);
+}
+.input-section input{
+    padding: 4px 46px 4px 0px;
+    font-size: 14px;
+    border-radius: 5px;
+    margin-right: 3px;
+    color:#7f8fa6;
+}
+.message-box{
+    margin-top: 10px;
+   
+   
+}
+.message-box textarea{
+    color:#7f8fa6;
+    font-size: 13px;
+    border-radius: 5px;
+
+}
+.text-button{
+    text-align: center;
+    margin-top: 40px;
+   
+}
+.text-button a{
+    color: #fff;
+    background: #4cd137;
+    padding: 8px 19px;
+    border-bottom: 2px solid #fff;
+}
+
+
+/*-------End Get in Touch-----*/
+
+.footer-part{
+    background:#192a56;
+    width: 100%;
+    height: auto;
+    border-top: 2px solid #fff;
+}
+.footer-section{
+    text-align: center;
+   
+}
+.footer-section ul li{
+    display: inline-block;
+    padding: 15px 24px;
+    color: #fff;
+}
+
+
+
+/*-------Responsive Design-----*/
+
+@media screen and (max-width: 768px){
+
+    .headline-section{
+        height: 53vh;
+    }
+    
+    .services-part{
+        max-width: 738px;
+    }
+    .services-part {
+        grid-template-columns: 1fr 1fr;
+    }
+    .team-services {
+        grid-template-columns: 1fr;
+        max-width: 738px;
+    }
+    .little-title {
+        margin: 0px 20px;
+        font-size: 16px;
+    }
+    .about-content p {
+        line-height: 20px;
+    }
+    .container {
+        max-width: 738px;
+        margin: auto;
+        padding: 0px 15px;
+    }
+    .input-section input{
+        margin-top: 7px;
+    }
+}
+@media screen and (max-width: 460px){
+    .info h1 {
+        font-size: 22px;
+        font-weight: 700;
+    }
+    
+    .navbar {
+        height: 102px;
+    }
+    .color {
+        font-size: 22px;
+    }
+    .headline-section{
+        height: 58vh;
+    }
+    .services-part {
+        grid-template-columns: 1fr;
+        max-width: 670px;
+    }
+    .team-services {
+        grid-template-columns: 1fr;
+        max-width: 738px;
+    }
+    .my-icons i{
+        padding-bottom: 22px;
+    }
+    .container {
+        max-width: 738px;
+    }
+    .about-content h5 {
+        font-size: 20px;
+        padding-bottom: 4px;
+    }
+    .about-content p {
+        line-height: 19px;
+        font-size: 14px;
+      }
+      .footer-section ul li {
+        padding: 12px 12px;
+    }
+}
+
